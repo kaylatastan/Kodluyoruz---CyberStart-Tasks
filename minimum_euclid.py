@@ -5,9 +5,8 @@ def euclideanDistance(point1, point2):
     return math.sqrt((point2[0] - point1[0]) ** 2 + (point2[1] - point1[1]) ** 2)
 
 points = []
-num_points = int(input("Kaç tane nokta girmek istiyorsunuz? "))
 
-for i in range(num_points):
+for i in range(2):
     x = float(input(f"Nokta {i + 1} için x koordinatını girin: "))
     y = float(input(f"Nokta {i + 1} için y koordinatını girin: "))
     points.append((x, y))
